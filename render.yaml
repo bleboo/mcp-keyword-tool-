@@ -1,0 +1,7 @@
+services:
+  - type: web
+    name: naver-keyword-mcp
+    runtime: python
+    plan: free
+    buildCommand: pip install -r requirements.txt
+    startCommand: python main.py
